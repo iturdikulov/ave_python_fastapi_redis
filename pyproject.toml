@@ -1,0 +1,13 @@
+[project]
+name = "ave-python-fastapi-redis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard-no-fastapi-cloud-cli]>=0.124.0",
+    "phonenumbers>=9.0.20",
+    "pydantic-extra-types>=2.10.6",
+    "redis>=7.1.0",
+    "types-redis>=4.6.0.20241004",
+]
