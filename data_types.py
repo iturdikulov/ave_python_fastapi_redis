@@ -31,12 +31,11 @@ class HomeAddress(BaseModel):
         "json_schema_extra": {
             "examples": [
                 {
-                    "street": "123 Main St",
-                    "apartment_number": "Apt 4B",
-                    "city": "Anytown",
-                    "state_province": "CA",
-                    "postal_code": "90210",
-                    "country": "USA",
+                    "street": "Кошкина 11",
+                    "apartment_number": "12 б.",
+                    "city": "Москва",
+                    "postal_code": "770000",
+                    "country": "Russia",
                 }
             ]
         }
